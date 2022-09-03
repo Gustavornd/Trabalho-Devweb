@@ -48,7 +48,7 @@ button {
     --corButtons1: #FB5607;
     --corButtons2: #03045e;
     --corTextPrimaraia: #FFBE0B;
-    --corTextSecundaria: #ffff;
+    --corTextSecundaria: white;
     --corTextTerciaria: #000;
     
 }
@@ -153,7 +153,7 @@ footer nav .project-repository{
 footer nav .project-repository li{
     margin: 15px 28px;
     text-align: center;
-    color: var(--corTextSecundaria);
+    color: white;
     display: inline-block;
 }
 footer nav .project-repository li a img{

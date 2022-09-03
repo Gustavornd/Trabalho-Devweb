@@ -12,8 +12,8 @@ ESTRUTURA BASE
 **** DECLARAÇÃO DE VAIÁVEIS
 **** BODY
 **** HEADER
+**** MAIN
 **** FOOTER
-**** PÁGINA INICIAL
 **** EXTRAS
 **** @MEDIA
 font-family: 'Open Sans', sans-serif;
@@ -53,12 +53,14 @@ button {
     
 }
  /* BODY */
+ /* NÃO MEXER  */
 body{
     font-family:'Open Sans', sans-serif;
     background-color: var(--corBackgroundbody);
 }
 
 /* HEADER */
+/* NÃO MEXER  */
 header{
     background-color: var(--corBackgroundHeader);
     padding: 30px 30px 30px 30px;
@@ -87,33 +89,46 @@ header .lado-direito{
 }
 
 
-/* PÁGINA INICIAL */
+
+
+
+/* MAIN */
 main{
     background-color: var(--corBackgroundMain);
     padding: 30px 30px 30px 30px;
     margin: 30px;
     border-radius: 24px;
-    text-align: center;
 }
 
-main nav .used-resorces{
+main nav .profiles{
     margin: 20px 0px 50px;
     padding: 50px 0px 50px 0px;
     text-align: center;
 }
-
-main nav .used-resorces li{
+main nav .profiles li{
     margin: 15px 28px;
     padding: 0px 50px 0px 50px;
     text-align: center;
     display: inline-block;
 }
 
-main nav .used-resorces li img{
-    width: 120px;
+main nav .profiles li img{
+    width: 200px;
+    border-radius: 100%;
 }
 
+main nav .profiles li a img{
+    width: 50px;
+}
+
+
+
+
+
+
+
 /* FOOTER */
+/* NÃO MEXER  */
 footer{
     background-color: var(--corBackgroundFooter);
     padding: 10px 30px 0px 30px;
