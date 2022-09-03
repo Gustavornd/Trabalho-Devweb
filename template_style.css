@@ -42,7 +42,7 @@ button {
 /* DECLARAÇÃO DE VARIÁVEIS */
 :root {
     --corBackgroundbody: #3A86FF;
-    --corBackgroundMain: #D9D9D9;
+    --corBackgroundMain: white;
     --corBackgroundHeader: #FF0063;
     --corBackgroundFooter: #8338EC;
     --corButtons1: #FB5607;

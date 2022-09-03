@@ -48,7 +48,7 @@ button {
     --corButtons1: #FB5607;
     --corButtons2: #03045e;
     --corTextPrimaraia: #FFBE0B;
-    --corTextSecundaria: #ffff;
+    --corTextSecundaria: white;
     --corTextTerciaria: #000;
     
 }
@@ -91,7 +91,7 @@ header .lado-direito{
 
 
 
-
+/* NÃO MEXER */
 /* MAIN */
 main{
     background-color: var(--corBackgroundMain);
@@ -99,29 +99,48 @@ main{
     margin: 30px;
     border-radius: 24px;
 }
+main p{
+    padding: 5px;
+}
 
-main nav .profiles{
-    margin: 20px 0px 50px;
-    padding: 50px 0px 50px 0px;
+main .box{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 20px 0 20px;
+    padding: 20px 0 20px;
+    
+
+}
+
+main .example{
+    background-color: #ddd;
+    padding: 0 20px 20px;
+}
+
+main .codeblock{
+    background-color: rgb(21,32,43);
+    color: white;
+}
+
+main .symbol{
+ color: mediumspringgreen;
+}
+main .tag{
+    color: mediumslateblue;
+}
+
+main .center{
+    margin: 50px 0 0;
+    flex-basis: 60%;
     text-align: center;
 }
-main nav .profiles li{
-    margin: 15px 28px;
-    padding: 0px 50px 0px 50px;
-    text-align: center;
-    display: inline-block;
+main .main-button{
+    margin: 0 20px;
+    background-color: var(--corButtons2);
 }
-
-main nav .profiles li img{
-    width: 200px;
-    border-radius: 100%;
+main .main-button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
-main nav .profiles li a img{
-    width: 50px;
-}
-
-
 
 
 
@@ -159,7 +178,7 @@ footer nav .project-repository{
 footer nav .project-repository li{
     margin: 15px 28px;
     text-align: center;
-    color: var(--corTextSecundaria);
+    color: white;
     display: inline-block;
 }
 footer nav .project-repository li a img{
